@@ -1,6 +1,6 @@
 # CYPRESS TEMPLATE
 
-QA Challenge
+TEMPLATE
 
 # Installation and Setup
 
