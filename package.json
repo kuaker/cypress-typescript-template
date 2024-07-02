@@ -1,17 +1,11 @@
 {
-  "name": "applydigital",
+  "name": "cypress-template",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "npx cypress open",
-    "cy:run": "npx cypress run",
-    "cy:run:contact-us-tests": "cypress run --browser chrome --spec cypress/e2e/tests/contac-us-tests/*.ts",
-    "cy:run:login-tests": "cypress run --browser chrome --spec cypress/e2e/tests/login-tests/*.ts",
-    "cy:run:payment-tests": "cypress run --browser chrome --spec cypress/e2e/tests/payment-tests*.ts",
-    "cy:run:product-tests": "cypress run --browser chrome --spec cypress/e2e/tests/payment-tests*.ts",
-    "cy:qa": "npx cypress run --env version=qa",
-    "cy:staging": "npx cypress run --env version=staging"
+    "cy:run": "npx cypress run"
   },
   "keywords": [],
   "author": "Fernando J. Arroupe",
@@ -29,6 +23,6 @@
     "@badeball/cypress-cucumber-preprocessor": "latest",
     "@cypress/webpack-preprocessor": "latest",
     "ts-loader": "latest",
-    "typescript": "latest" 
+    "typescript": "latest"
   }
 }
