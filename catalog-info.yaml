@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "prueba-cypress-backstage"
+spec:
+  type: service
+  owner: user:farroupefreeit
+  lifecycle: experimental
