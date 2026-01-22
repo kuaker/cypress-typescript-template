@@ -7,11 +7,7 @@ metadata:
   links:
     - url: https://github.com/kuaker/cypress-typescript-template
       title: Cypress Template Repo
-      icon: dashboard 
-      type: external
-  annotations:
-    github.com/project-slug: https://github.com/kuaker/cypress-typescript-template 
-    backstage.io/managed-by: user:farroupefreeit
+      icon: dashboard
 
 spec:
   type: service
